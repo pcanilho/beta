@@ -3,7 +3,7 @@ portfolio-nav {
 	
 }
 
-nav ul {
+.portfolio-nav ul {
 	-webkit-font-smoothing:antialiased;
 	text-shadow:0 1px 0 #FFF;
     background: #ddd;
@@ -15,14 +15,14 @@ nav ul {
 	bottom: 0;
 	z-index: 1000;
 }
-nav li {
+.portfolio-nav li {
     float: left;
     margin: 0;
     padding: 0;
     position: relative;
     min-width: 25%;
 }
-nav a {
+.portfolio-nav a {
     background: #ddd;
     color: #444;
     display: block;
@@ -36,16 +36,16 @@ nav a {
          -o-transition: all .25s ease;
             transition: all .25s ease;
 }
-nav .dropdown:after {
+.portfolio-nav .dropdown:after {
     content: ' ▶';
 }
-nav .dropdown:hover:after{
+.portfolio-nav .dropdown:hover:after{
 	content:'\25bc'
 }
-nav li:hover a {
+.portfolio-nav li:hover a {
     background: #ccc;
 }
-nav li ul {
+.portfolio-nav li ul {
     float: left;
     left: 0;
     opacity: 0;
@@ -59,16 +59,16 @@ nav li ul {
          -o-transition: all .25s ease;
             transition: all .25s ease;
 }
-nav li:hover ul {
+.portfolio-nav li:hover ul {
     opacity: 1;
     top: 50px;
     visibility: visible;
 }
-nav li ul li {
+.portfolio-nav li ul li {
     float: none;
     width: 100%;
 }
-nav li ul a:hover {
+.portfolio-nav li ul a:hover {
     background: #bbb;
 }
 
