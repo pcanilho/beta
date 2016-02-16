@@ -211,6 +211,7 @@ hr.small {
 }
 
 .img-portfolio {
+	cursor: pointer;
     margin: 0 auto;
 }
 
@@ -226,6 +227,31 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
+
+}
+
+/* PERIF */
+#portfolio-cern-logo {
+	width: 4em;
+	height: 4em;
+	float: right;
+}
+
+#portfolio-cern-logo:hover  {
+	opacity: 0.9;
+}
+
+.col {width:365px; padding:0 5px; float:left;}
+
+.CCspace {	
+	width:8.7em; 
+	height:8.6em; 
+	padding: 2em;; 
+	margin-left: 1em;
+	float:right;
+	background: url(../img/portfolio/cern.png) no-repeat top left;
+	background-size: 8.438em 8.438em;
+	display: inline-block;
 }
 
 /* Map */

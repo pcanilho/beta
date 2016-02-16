@@ -19,6 +19,9 @@
     <link href="css/skills-progress.css" rel="stylesheet">
     <link href="css/component/unselectable.css" rel="stylesheet">
     <link href="css/component/portfolio-item.css" rel="stylesheet">
+	
+	<!-- PHOTO CLICER CSS -->
+    <link href="css/component/photoSlicer.css" rel="stylesheet">
     
     <!-- Radar Chart -->
     <link href="css/component/skill_radarChart.css" rel="stylesheet">
@@ -285,57 +288,128 @@
                 <div class="col-lg-10 col-lg-offset-1 text-center">
                     <h2 style="color: black">Projects &amp; Work</h2>
                     <hr class="small" style="border-color: black">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="/CERN/">
-                                    <img class="img-portfolio img-responsive" src="img/projects/project-cern-2.png">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-									<nav class="portfolio-nav">
-										<ul class="cf">
-											<li><a class="dropdown" href="#">Career</a>
-												<ul>
-													<li><a href="#">CERN</a></li>
-												</ul>
-												</li>
+					<!-- LEFT ROW - AREAS -->
+				    <div class="row">
+                         <div class="col-md-6">
+                             <div class="portfolio-item">
+                                 <a id="portfolio-telecom-engineer">
+                                     <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work-bg.png">
+                                 </a>
+                             </div>
+                         </div>
+                         <div class="col-md-6">
+                             <div class="portfolio-item">
+					 				<a id="portfolio-software-developer">
+                                     <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work.jpg">
+                                 </a>
+                             </div>
+                         </div>
+                     </div>
+					<!-- RIGHT ROW - DISPLAY -->
+					<div class="row">
+                         <div class="col-md-4">
+                            <div id="portfolio-photos-display" class="portfolio-item">
+									  <!-- Photos Wrapper -->
+									<div class="wrapper">
+
+										<ul id="sb-slider" class="sb-slider">
+											<li>
+												<a><img src="img/portfolio/telecom-work.jpg" /></a>
+												<div class="sb-description">
+													<h3>Master Unit &amp; Remote Unit Gateway Configuration</h3>
+												</div>
 											</li>
-											<li><a class="dropdown" href="#">Menu Item 2</a>
-												<ul>
-													<li><a href="#">Sub-menu Item 1</a></li>
-													<li><a href="#">Sub-menu Item 2</a></li>
-													<li><a href="#">Sub-menu Item 3</a></li>
-												</ul>
-												</li>
-											<li><a href="#">Menu Item 3</a></li>
-											<li><a href="#">Menu Item 4</a></li>
+											<li>
+												<a><img src="img/portfolio/spectrum-analyser.jpg"/></a>
+												<div class="sb-description">
+													<h3>Network Analysis &amp; General Troubleshooting</h3>
+												</div>
+											</li>
+											<li>
+												<a><img src="img/portfolio/telecom-work-2.jpg" /></a>
+												<div class="sb-description">
+													<h3>WiFi 2.4GHz/Dual Band Troubleshooting</h3>
+												</div>
+											</li>
+											<li>
+												<a><img src="img/portfolio/telecom-work-3.jpg" /></a>
+												<div class="sb-description">
+													<h3>Master Unit &amp; Remote Unit direct signal analysis</h3>
+												</div>
+											</li>
+											
 										</ul>
-									</nav>
-									<a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work.jpg">
-                                </a>
+
+										<div id="shadow" class="shadow"></div>
+
+										<div id="nav-arrows" class="nav-arrows">
+											<img src="img/objects/arrow-right.png"></img>
+											<img  src="img/objects/arrow-left.png"></img>
+										</div>
+
+										<!-- Photos Navigation -->
+										<div id="nav-dots" class="nav-dots">
+											<span class="nav-dot-current"></span>
+											<span></span>
+											<span></span>
+											<span></span>											
+										</div>
+
+							    </div>
+							    <!-- /Photos Wrapper -->
                             </div>
+							<!-- WORK -->
+								
                         </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work-2.jpg">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="portfolio-item">
-                                <a href="#">
-                                    <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work-3.jpg">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+						<div class="portfolio-item">
+							<div>
+								<h3>Telecommunications &amp; Radio Engineer 
+									<p> 
+										<a href="http://www.cern.ch"></a>
+									</p>
+								</h3>
+							
+								<p>
+									<div  style="text-align: justify; text-justify: inter-word;" id="overall">
+										<div class="col" style="margin-left: 4em; width: 40em;">
+											<h4 >
+												Working at CERN
+											</h4>
+											<span class="CCspace">&nbsp;</span><p>&emsp;&ensp;I have been working at CERN (European Organization for Nuclear Research) in Switzerland for the last year and a half. In my technical student internship with CERN I was working as a Telecommunications & Radio Engineer providing 4th level support for CERN users (3000+ workers) while migrating the old mobile network operator, and correlated equipment, from Sunrise to Swisscom. Afterwards, in order to achieve network stability, coverage and supply high throughputs over the mobile networks technologies: GSM, UMTS and LTE, I became the responsible for the mobile monitoring system's deployment/implementation/sysadmin/dba. </p>
+											<p>In this project I also had the opportunity to work with TETRA (currently being used by CERN's fire brigade, security teams and tunnel access staff, engineers, physicists and technicians) & TETRAPOL radio technology including: monitoring system, network troubleshooting, SEPURA equipment programming, etc.</p>
+										</div>
+
+										<div class="col">
+										
+										</div>
+									</div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- PROJECTS -->
+					<div class="row">
+                         <div class="col-md-6">
+					
+								<div class="portfolio-item" style="text-align:left;">
+									<input type="radio" name="projects">&nbsp;MOMO<br>
+									<input type="radio" name="projects">&nbsp;TETRA<br>
+									<input type="radio" name="projects">&nbsp;GIS PORTAL<br>
+								</div>
+								
+						</div>
+				
+						<!-- PROJECT DETAILS -->
+                         <div class="col-md-6">
+							<div class="portfolio-item" style="text-align: justify;">
+								fafasda
+								</p>
+								<button>See Presentation</button>
+							</div>								
+						</div>
+					</div>
                     <!-- /.row (nested) -->
-                    <a href="#" class="btn btn-dark">View More Items</a>
+                    <!--<a href="#" class="btn btn-dark">View More Items</a>-->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -353,7 +427,6 @@
                     <hr class="small">
                     <a href="#" class="btn btn-lg btn-light">Click Me!</a>
                     <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-					
                 </div>
             </div>
         </div>
@@ -412,6 +485,11 @@
 	<script src="js/library/jquery.ui.min.js" 		      type="text/javascript"></script>
 	<script src="js/main.js" 						      type="text/javascript"></script>
 	<script src="js/library/livereload.js" 			      type="text/javascript"></script>
+	
+	<!-- PHOTO SLIDER -->
+	<script src="js/component/photoSlicer.js" 			  type="text/javascript"></script>
+	<script src="js/library/sliceBox.js" 			      type="text/javascript"></script>
+	<script src="js/component/photoSlicer-handler.js"     type="text/javascript"></script>
 	
 	<!-- Skill's Progress bar animation -->
 	<!--<script src="js/component/skillsProgressBar_anim.js"></script>-->
