@@ -65,8 +65,7 @@ hr.small {
 .explore-button {
 	position: absolute;
 	bottom: 4em;
-	left: 62.5%;
-	margin-left: -25%;
+	left: 37.5vw;
 	padding-left: 10em;
 	padding-right: 10em;
 	font-size: 28px;
