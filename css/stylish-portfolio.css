@@ -61,6 +61,14 @@ hr.small {
     max-width: 100px;
 }
 
+/* Explore button */
+.explore-button {
+	margin-bottom: -40em;
+	padding-left: 10em;
+	padding-right: 10em;
+	font-size: 28px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -158,7 +166,8 @@ hr.small {
 
 .header_position {
    color: #d3d3d3;
-   margin-bottom: 3em;
+   margin-bottom: -10em;
+
 }
 
 .header {
@@ -171,6 +180,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	 background-attachment: fixed;
 }
 
 /* Skill overview */
@@ -198,6 +208,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+	 background-attachment: fixed;
 }
 
 /* Portfolio */
