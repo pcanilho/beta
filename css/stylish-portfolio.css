@@ -219,6 +219,12 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+	max-height: 60em;
+}
+
+.wrapper .sb-slider {
+	max-width: 40em;
+	max-height: 40em;
 }
 
 .img-portfolio {
