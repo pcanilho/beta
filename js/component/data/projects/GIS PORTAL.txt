@@ -1,9 +1,7 @@
 	<img src="img/portfolio/data/GS-section.gif" style="display: block; margin: 0 auto 1em; width: 80px; height: 80px;"></img>
 										<div style="text-align: justify;">
-											<a href="https://maps.cern.ch/mapsearch/">GIS Portal - General</a>
-											<p><i style="float: right;">(No Authentication needed)</i></p>
-											<a href="https://gis.cern.ch/gisportal/IT_Equipment.htm">GIS PORTAL - IT Equipment</a>
-											<p><i style="float: right;">(CERN Authentication needed)</i></p>
+											<a href="https://maps.cern.ch/mapsearch/">GIS Portal - General</a><i style="float: right;">(No Authentication needed)</i></p>
+											<a href="https://gis.cern.ch/gisportal/IT_Equipment.htm">GIS PORTAL - IT Equipment</a><i style="float: right;">(CERN Authentication needed)</i></p>
 										</div>
 										<hr>
 										&emsp;&ensp;In order to create a logging system for on-site surveys regarding mobile and TETRA networks, an interactive/simple/intuitive interface is needed. For this, the creation of a page in CSDB is shown as the most suited solution.
@@ -17,7 +15,7 @@
 										</ul>
 										<img src="img/portfolio/data/gis-portal.png" style="display: block; margin: 0 auto 1em;"></img>
 										<h5><b>Implementation in the GIS Portal</b></h5>
-										&emsp;&ensp;A map representation of these measurements is needed for an overall look over the network status. In order to achieve this, an integration with the Gis Portal is needed. With the overall coverage level per floor, the map layer is coloured accordingly – in resemblance with the “Wifi_coverage” layer in the “IT_Equipment” Gis Portal page.
+										&emsp;&ensp;A map representation of these measurements is needed for an overall look over the network status. In order to achieve this, an integration with the Gis Portal is needed. With the overall coverage level per floor, the map layer is coloured accordingly &#45; in resemblance with the &quot;Wifi_coverage&quot; layer in the &quot;IT_Equipment&quot; Gis Portal page.
 										</p>
 										<style>
 												#tetra-pic{
