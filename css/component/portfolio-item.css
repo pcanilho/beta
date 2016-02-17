@@ -84,3 +84,45 @@ portfolio-nav {
 .cf {
     zoom:1;
 }​
+
+
+/* Portfolio Button */
+.input_hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+.selected {
+    background-color: #ccc;
+}
+
+#projects-choice label {
+    display: inline-block;
+    cursor: pointer;
+	padding: 0 5px 0 0;
+}
+
+
+#projects-choice label:hover {
+    background-color: #efefef;
+}
+
+#projects-choice label img {
+    padding: 3px;
+    
+}
+
+
+#projects-choice img {
+	width: 33px;
+	height: 33px;
+	float: left;
+}
+
+#projects-choice input[type=radio]:checked + label img {
+	content: url(../../img/portfolio/components/project-selected.png);
+}
+
+#projects-choice input[type=radio]{
+	display: none;
+}

@@ -52,3 +52,8 @@
 	// STACK FRAME
 	//$('div').stack();
 	
+	// RADIO BUTTON
+	$('#projects-choice input:radio').addClass('input_hidden');
+	$('#projects-choice label').click(function() {
+		$(this).addClass('selected').siblings().removeClass('selected');
+	});
