@@ -384,7 +384,7 @@ box-shadow: 0 0 1px 3px #d3d3d3 inset;
 }
 
 .win-linux-bg {
-	height: 1.8em;
+		height: 1.8em;
 		margin-bottom: 0.2em;
 		z-index: 10;
 		content: url(../img/win_linux.png);
