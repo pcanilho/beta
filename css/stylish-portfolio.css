@@ -21,6 +21,15 @@ small {
 	
 }
 
+.text-vertical-center h1 {
+	 margin: 0;
+    padding-top: 2vh;
+    font-size: 4.5vw;
+    font-weight: 700;
+    vertical-align: middle;   
+	color: white;
+}
+
 .top-frame{
 	display: table-cell;
     text-align: center;
