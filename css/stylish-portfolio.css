@@ -235,9 +235,11 @@ hr.small {
 	max-height: 60em;
 }
 
+
 .wrapper .sb-slider {
 	max-width: 40em;
 	max-height: 40em;
+	margin-left: 1em;
 }
 
 .img-portfolio {
