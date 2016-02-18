@@ -285,6 +285,17 @@ hr.small {
 	display: inline-block;
 }
 
+.CCspace-left {	
+	width:8.7em; 
+	height:4.6em; 
+	padding: 2em;
+	margin-right: 1em;
+	float:left;
+	background: url(../img/portfolio/data/microsoft-logo.png) no-repeat top left;
+	background-size: 8.438em 4.438em;
+	display: inline-block;
+}
+
 /* Map */
 
 #enable-map-button {
