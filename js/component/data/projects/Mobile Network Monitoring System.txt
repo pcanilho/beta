@@ -24,4 +24,4 @@
 										<hr>
 										<h4 style="color: green;">Presentation Available</h4>
 										<button id="momo-fullscreen-button" onClick="location.href='http://www.pcanilho.com/CERN/';" type="button" style=""></button>
-										<iframe id="momo-presentation-iframe" src="http://www.pcanilho.com/CERN/" style="min-width: 40em; min-height: 20em; margin-left: 3em;"><iframe>
+										<iframe id="momo-presentation-iframe" src="http://www.pcanilho.com/CERN/" style="max-width: 20vw; max-height: 10vh; margin-bottom: 3em;"></iframe>

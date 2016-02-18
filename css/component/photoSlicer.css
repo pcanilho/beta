@@ -141,7 +141,6 @@
 	width: 6em;
 	height: 8em;
 	position: absolute;
-	margin-left: -4em;
 	top: 50%;
 	left: 2px;
 	text-indent: -9000px;
@@ -150,11 +149,17 @@
 	opacity: 0.9;
 	border-radius: 50%;
 	z-index: 1000;
-
+	opacity: 0.4;
 }
 
-.wrapper img {
+.nav-arrows img:hover {
+	opacity: 1;
 }
+
+.nav-arrows img:first-child:hover {
+	opacity: 1;
+}
+
 
 .nav-arrows a:first-child{
 	left: auto;
@@ -166,9 +171,9 @@
 
 .nav-arrows img:first-child{
 	left: auto;
-	margin-right: -4em;
 	right: 2px;
 	background-position: top right;
+	opacity: 0.4;
 }
 
 .nav-arrows a:hover {

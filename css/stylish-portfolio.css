@@ -23,8 +23,16 @@ small {
 .text-vertical-center h1 {
     margin: 0;
     padding: 0;
-    font-size: 4.5em;
+    font-size: 4.5vw;
     font-weight: 700;
+}
+
+.text-vertical-center h2 {
+    font-size: 3vw;
+}
+
+.text-vertical-center h3 {
+    font-size: 3vw;
 }
 
 /* Custom Button Styles */
@@ -63,10 +71,10 @@ hr.small {
 
 /* Explore button */
 .explore-button {
-	padding-left: 10em;
-	padding-right: 10em;
-	font-size: 28px;
-	margin-bottom: -20em;
+	padding-left: 20vw;
+	padding-right: 20vw;
+	font-size: 2.5vw;
+	margin-top: 60vh;
 }
 
 /* Side Menu */

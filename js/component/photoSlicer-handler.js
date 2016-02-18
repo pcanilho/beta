@@ -73,3 +73,18 @@ $(function() {
 				Page.init();
 
 			});
+			
+// ANIMATION
+//function loopfade(){			
+//	$('.photoSlicer-arrow')
+//		.animate({ opacity: 1 })
+//		.delay(2000)
+//		.animate({ opacity: 0.4 });
+//	$('.photoSlicer-arrow')
+//		.animate({ opacity: 0.4 })
+//		.delay(2000)
+//		.animate({ opacity: 1 });
+//}
+//setInterval(loopfade, 2000);		
+			
+			
