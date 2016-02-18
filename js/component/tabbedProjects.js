@@ -10,7 +10,7 @@ jQuery(document).ready(function() {
  
         e.preventDefault();
 		
-		$('body').animate({scrollTop:$('div#addnote-area').offset().top},500)
+		$('body').animate({scrollTop:$('.tabs #tab1').offset().top},500)
     });
 });
 //hideTeleng();
