@@ -1,4 +1,4 @@
-
+	
 html,
 body {
     width: 100%;
@@ -21,13 +21,48 @@ small {
 	
 }
 
-.text-vertical-center h1 {
+.top-frame{
+	display: table-cell;
+    text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	vertical-align: middle; 
+}
+
+.text-vertical-center .header_title {
     margin: 0;
-    padding: 0;
+    padding-top: 2vh;
     font-size: 4.5vw;
     font-weight: 700;
     vertical-align: middle;   
-	color: black;
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border: none;
+	width: 60vw;
+	cursor: default;
+}
+
+.text-vertical-center .header_name {
+    font-size: 2.5vw;
+    font-weight: 700;
+    vertical-align: middle;   
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border: none;
+	width: 60vw;
+	cursor: default;
+}
+
+.text-vertical-center .header_position {
+    margin: 0;
+    padding-bottom: 2vh;
+    font-size: 2.5vw;
+    font-weight: 700;
+    vertical-align: middle;   
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border: none;
+	width: 60vw;
+	cursor: default;
 }
 
 .text-vertical-center h2 {
@@ -79,7 +114,7 @@ hr.small {
 	padding-left: 20vw;
 	padding-right: 20vw;
 	font-size: 2.5vw;
-	margin-top: 60vh;
+	margin-top: 20vh;
 }
 
 /* Side Menu */
