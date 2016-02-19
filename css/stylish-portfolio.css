@@ -273,6 +273,21 @@ hr.small {
 	 background-attachment: fixed;
 }
 
+.career #career-tittle {
+	 font-size: 4.5vw;
+    font-weight: 700;
+    vertical-align: middle;   
+	color: white;
+	background-color: rgba(0,0,0,0.4);
+	border: none;
+	width: 60vw;
+	cursor: default;
+	/*
+	-moz-box-shadow: 0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow: 0 0 10px #000;*/
+}
+
 /* Portfolio */
 
 .portfolio {
