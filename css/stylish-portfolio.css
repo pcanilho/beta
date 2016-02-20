@@ -288,6 +288,56 @@ hr.small {
 	box-shadow: 0 0 10px #000;*/
 }
 
+/* Toggle Button */
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
+}
+
+input.cmn-toggle-round + label {
+  padding: 2px;
+  width: 120px;
+  height: 60px;
+  background-color: #dddddd;
+  border-radius: 60px;
+}
+input.cmn-toggle-round + label:before,
+input.cmn-toggle-round + label:after {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  content: "";
+}
+input.cmn-toggle-round + label:before {
+  right: 1px;
+  background-color: #f1f1f1;
+  border-radius: 60px;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round + label:after {
+  width: 58px;
+  background-color: #fff;
+  border-radius: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: margin 0.4s;
+}
+input.cmn-toggle-round:checked + label:before {
+  background-color: #8ce196;
+}
+input.cmn-toggle-round:checked + label:after {
+  margin-left: 60px;
+}
+
 /* Portfolio */
 
 .portfolio {
@@ -390,8 +440,33 @@ footer {
     padding: 100px 0;
 }
 
-/* MAP CANVAS */
+/* Map Canvas */
 
 .scrolloff {
-        pointer-events: none;
-    }
+    pointer-events: none;
+}
+	
+/* Navigate down arrow */
+.navigate-down-arrow-separator {
+	margin-left: 30vw;
+	margin-right: 30vw;
+	opacity: 0.6;
+}
+
+.navigate-down-arrow {
+	cursor: pointer;
+	width: 2vw;
+	height: 2vh;
+	position: relative;
+	bottom: 1vh;
+	right: 1vw;
+	content: url(../img/portfolio/components/arrow-down.png);
+	background: url(../img/portfolio/components/arrow-down.png) no-repeat;
+	background-size: 2vw 2vh;
+}
+
+.navigate-down-arrow:hover {
+	content: url(../img/portfolio/components/arrow-down-hover.png);
+	background: url(../img/portfolio/components/arrow-down-hover.png) no-repeat;
+	background-size: 2vw 2vh;
+}

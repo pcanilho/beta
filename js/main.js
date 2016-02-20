@@ -57,3 +57,23 @@
 	$('#projects-choice label').click(function() {
 		$(this).addClass('selected').siblings().removeClass('selected');
 	});
+	
+	// NAVIGATE DOWN ARROW
+	$('#navigate-down-skills').click(function(){
+		$('html, body').animate({
+		scrollTop: $("#skills").offset().top
+		}, 1000);
+	});
+	$('#navigate-down-skills-overview').click(function(){
+		$('html, body').animate({
+		scrollTop: $("#skill-overview").offset().top
+		}, 1000);
+	});
+	$('#navigate-down-career').click(function(){
+		$('html, body').animate({
+		scrollTop: $("#career").offset().top
+		}, 1000);
+	});
+	
+	
+		
