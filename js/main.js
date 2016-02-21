@@ -34,16 +34,23 @@
 		$('#map-canvas').addClass('scrolloff');
 	});
 	
+	
+	
 	var isMapDisabled = true;
+	function handleMap(){
+		$('#cmn-toggle-1-label').trigger('click');
+		enable_disable_map();
+	}
+	
 	function enable_disable_map() {
 		if(isMapDisabled){
-			$('#enable-map-button').text("Disable Map");
+			$('#enable-map-button').html("Press to <b>Disable Map</b>");
 			$('#map-canvas').removeClass('scrolloff');
-			$('#enable-map-button').css('background-color', '#AF3131');
+			//$('#enable-map-button').css('background-color', '#AF3131');
 			isMapDisabled = false;
 		}else{
-			$('#enable-map-button').css('background-color', '#75B246');
-			$('#enable-map-button').text("Enable Map");
+			//$('#enable-map-button').css('background-color', '#75B246');
+			$('#enable-map-button').html("Press to <b>Enable Map</b>");
 			$('#map-canvas').addClass('scrolloff');
 			isMapDisabled = true;
 		}
@@ -52,10 +59,17 @@
 	// STACK FRAME
 	//$('div').stack();
 	
+	
 	// RADIO BUTTON
 	$('#projects-choice input:radio').addClass('input_hidden');
 	$('#projects-choice label').click(function() {
 		$(this).addClass('selected').siblings().removeClass('selected');
+	});
+	
+	// MAP TOGGLE Button
+	
+	$('#cmn-toggle-1').click(function() {
+		handleMap();
 	});
 	
 	// NAVIGATE DOWN ARROW
