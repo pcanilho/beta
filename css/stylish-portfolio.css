@@ -462,6 +462,7 @@ footer {
 	content: url(../img/portfolio/components/arrow-down.png);
 	background: url(../img/portfolio/components/arrow-down.png) no-repeat;
 	background-size: 2vw 2vh;
+	background-color: rgba(0,0,0,0.4);
 }
 
 .navigate-down-arrow:hover {

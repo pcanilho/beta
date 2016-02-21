@@ -88,6 +88,12 @@
 		scrollTop: $("#career").offset().top
 		}, 1000);
 	});
+	$('#navigate-down-map').click(function(){
+		$('html, body').animate({
+		scrollTop: $("#blog").offset().top
+		}, 1000);
+	});
+	
 	
 	
 		

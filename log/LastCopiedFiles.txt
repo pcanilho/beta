@@ -159,8 +159,24 @@ D:\SERVER\tomcat\webapps\ROOT\beta\trunk\js\library\stopTimeout.js -> C:\Users\A
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\js\library\with-jquery.html -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\js\library\with-jquery.html
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\js\library\d3\d3.v3.js -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\js\library\d3\d3.v3.js
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\js\library\d3\d3.v3.min.js -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\js\library\d3\d3.v3.min.js
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\index.html -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\index.html
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\css\bootstrap-theme.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\css\bootstrap-theme.css
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\css\bootstrap.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\css\bootstrap.css
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\css\style.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\css\style.css
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.eot -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.eot
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.svg -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.svg
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.ttf -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.ttf
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.woff -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\fonts\glyphicons-halflings-regular.woff
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\img\main-bg.jpg -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\img\main-bg.jpg
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\img\slide1.png -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\img\slide1.png
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\img\slide2.png -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\img\slide2.png
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\img\slide3.png -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\img\slide3.png
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\js\bootstrap.min.js -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\js\bootstrap.min.js
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\js\jquery.countdown.min.js -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\js\jquery.countdown.min.js
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\video\bg-video-poster.jpg -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\video\bg-video-poster.jpg
+D:\SERVER\tomcat\webapps\ROOT\beta\trunk\redirect\uc\assets\video\bg-video.mp4 -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\redirect\uc\assets\video\bg-video.mp4
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\stylesheets\github-light.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\stylesheets\github-light.css
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\stylesheets\normalize.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\stylesheets\normalize.css
 D:\SERVER\tomcat\webapps\ROOT\beta\trunk\stylesheets\stylesheet.css -> C:\Users\ArgOC\Documents\MEGA\Projects\HOMEPAGE-PCANILHO\beta\trunk\stylesheets\stylesheet.css
-164 File(s) copied
-COPY MADE FROM: CERBERUS/ArgOC AT: 21/02/2016 15:26:16.14 
+180 File(s) copied
+COPY MADE FROM: CERBERUS/ArgOC AT: 21/02/2016 18:54:02.58 
