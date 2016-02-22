@@ -123,6 +123,11 @@ portfolio-nav {
 	content: url(../../img/portfolio/components/project-selected.png);
 }
 
+#sdev input[type=radio]:checked + label img {
+	content: url(../../img/portfolio/components/project-sdev-selected.png);
+}
+
+
 #projects-choice input[type=radio]{
 	display: none;
 }

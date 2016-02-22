@@ -2,11 +2,15 @@ jQuery(document).ready(function() {
     jQuery('.tabs .tab-links a').on('click', function(e)  {
         var currentAttrValue = jQuery(this).attr('href');
  
+		// Add selected status
+		jQuery(this).parent('li').addClass('selected-tab').siblings().removeClass('selected-tab');
+		
         // Show/Hide Tabs
 		jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
  
         // Change/remove current tab to active
         jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+		
  
         e.preventDefault();
 		

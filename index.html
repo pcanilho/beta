@@ -6,11 +6,10 @@
 	<!--<meta http-equiv="refresh" content="0; url=redirect/uc/index.html" />
 	<!-- -->
 	
-	
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="pcanilho paulo canilho Paulo-Canilho CERN android java ssh sh cplusplus c++ python google www.google.com www.google.pt">
+    <meta name="description" content="Online Portfolio of Telecommunications & Radio Enginneer/Software Developer & Researcher - Paulo Canilho">
     <meta name="author" content="">
 
     <title>Paulo Canilho - Online Portfolio</title>
@@ -76,10 +75,7 @@
                 <a href="#career" onclick = $("#menu-close").click(); >Career</a>
             </li>
 			<li>
-                <a href="#blog" onclick = $("#menu-close").click(); >Blog</a>
-            </li>
-            <li>
-                <a href="#map-contact" onclick = $("#menu-close").click(); >Contact</a>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
             </li>
         </ul>
     </nav>
@@ -342,7 +338,7 @@
 							<li><a href="#tab1"><img class="img-portfolio img-responsive" src="img/portfolio/telecom-work.jpg" style="border-radius: 10px"><hr class="tab-img">Telecommunications &amp; Radio Engineering
                                      </a>
 							</li>
-							<li><a href="#tab2"> <img class="img-portfolio img-responsive" src="img/portfolio/telecom-work.jpg"><hr class="tab-img">Software Development</a>
+							<li><a href="#tab2"> <img class="img-portfolio img-responsive" src="img/portfolio/sdev.PNG" style="border-radius: 10px"><hr class="tab-img">Software Development</a>
                                     
 							</li>
 						</ul>
@@ -466,7 +462,7 @@
 									<hr>
 									<h3>Projects and Collaboration</h3>
 									<hr>
-										<div id="projects-choice" class="portfolio-item" style="text-align:left;">
+										<div id="projects-choice" class="portfolio-item project-choice" style="text-align:left;">
 											<h4>Mobile Network - GSM/UMTS/LTE</h4>
 											<input id="project0" class="project-choice-radio" type="radio" name="projects" value="Mobile Network Monitoring System">
 											<label class="project-choice-label" for="project0" style="min-width: 90%;">Mobile Network Monitoring System	<img src="img/portfolio/components/project.png"/></label>
@@ -492,7 +488,7 @@
 									<h3>Details</h3>
 									<hr>
 									<div id="project-details-container" class="portfolio-item" style="text-align: center;">
-										<span id="project-details-txt" style="position: relative;">
+										<span id="project-details-txt" class="project-details-txt" style="position: relative;">
 															
 										</span>
 										</p>
@@ -563,92 +559,107 @@
 												</div>
 												</div>
 												<div class="row">
-												<div class="portfolio-item">
-													<div>
-														<hr>
-														<h3>Software Developer &amp; Researcher 
-														<hr>
-														</h3>
-													
-														<p>
-															<div  style="text-align: justify; text-justify: inter-word;" id="overall">
-																<div class="col" style="margin-left: 1em; width: 95%;">
-																	<h4 >
-																		ADETTI - MICROSOFT PT - CERN
-																	</h4>
-																	<span class="CCspace">&nbsp;</span><p>&emsp;&ensp; 
-																	I have been working at CERN&reg; (European Organization for Nuclear Research) in Switzerland for the last year and a half. On the first half year, I worked as a software developer for the beams section, where I became responsible for the development and integration of a monitoring system in Linux and Android. This system’s main role was to query large amounts of data from the detectors in real-time and then filter all the data, via a fully customizable XML system. This data would then be downloaded on-demand by the users over the Android applications that I developed. Afterwards, I got to work as a Telecommunications & Radio Engineer providing 4th level support for CERN users (3000+ workers) while migrating the old mobile network operator, and correlated equipment, from Sunrise to Swisscom. Afterwards, in order to achieve network stability, coverage and supply high throughputs over the mobile networks technologies: GSM, UMTS and LTE, I became the responsible for the mobile monitoring system's deployment, implementation, sysadmin and dba.
-																	<p>																	In this project I also had the opportunity to work create real-time statistics analysis tools using JavaScript third party libraries such as: D3, AnyChart, JQuery, etc. In order to supply a user friendly interface for the users, I created a dynamic and long term self-sustainable query system. This system queries in real-time values on-demand (PHP to MSSQL) for each probe on each mobile network technology and then uses this data to create dynamic charts and plot data with a valid GPS location on a map, using Google Maps API. Since one of CERN’s primary goals is data security, I also had to take into account the input system by adding prepared statements, isolating the Webadmin access from the Webroot location and test the code thoroughly.</p>
-																	<p>
-																	<span class="CCspace-left">&nbsp;</span>
-																	Before working at CERN I also worked as a research assistant in ISCTE-IUL - ADETTI&reg; research group which is directly affiliated with Microsoft PT, receiving a Student Grant as a junior Research Assistant. On this project I had the opportunity to work with an interdisciplinary team of both engineers and architects where the common goal was machine learning involving: shape grammars, LISP language implementation and JAVA 7 migration, complex algorithmic calculations, etc.</p>
-																	<hr style="margin-left: 5em; margin-right: 5em;">
-																	
-																	
-																</div>
-																<div class="col">
-																
-																</div>
-															</div>
-														</p>
+													<div class="portfolio-item">
+														<div>
+															<hr>
+															<h3>Software Developer &amp; Researcher 
+															<hr>
+															</h3>
 														
+															<p>
+																<div  style="text-align: justify; text-justify: inter-word;" id="overall">
+																	<div class="col" style="margin-left: 1em; width: 95%;">
+																		<h4 >
+																			ADETTI - MICROSOFT PT - CERN
+																		</h4>
+																		<span class="CCspace">&nbsp;</span><p>&emsp;&ensp; 
+																		I have been working at CERN&reg; (European Organization for Nuclear Research) in Switzerland for the last year and a half. On the first half year, I worked as a software developer for the beams section, where I became responsible for the development and integration of a monitoring system in Linux and Android. This system’s main role was to query large amounts of data from the detectors in real-time and then filter all the data, via a fully customizable XML system. This data would then be downloaded on-demand by the users over the Android applications that I developed. Afterwards, I got to work as a Telecommunications & Radio Engineer providing 4th level support for CERN users (3000+ workers) while migrating the old mobile network operator, and correlated equipment, from Sunrise to Swisscom. Afterwards, in order to achieve network stability, coverage and supply high throughputs over the mobile networks technologies: GSM, UMTS and LTE, I became the responsible for the mobile monitoring system's deployment, implementation, sysadmin and dba.
+																		<p>																	In this project I also had the opportunity to work create real-time statistics analysis tools using JavaScript third party libraries such as: D3, AnyChart, JQuery, etc. In order to supply a user friendly interface for the users, I created a dynamic and long term self-sustainable query system. This system queries in real-time values on-demand (PHP to MSSQL) for each probe on each mobile network technology and then uses this data to create dynamic charts and plot data with a valid GPS location on a map, using Google Maps API. Since one of CERN’s primary goals is data security, I also had to take into account the input system by adding prepared statements, isolating the Webadmin access from the Webroot location and test the code thoroughly.</p>
+																		<p>
+																		<span class="CCspace-left">&nbsp;</span>
+																		Before working at CERN I also worked as a research assistant in ISCTE-IUL - ADETTI&reg; research group which is directly affiliated with Microsoft PT, receiving a Student Grant as a junior Research Assistant. On this project I had the opportunity to work with an interdisciplinary team of both engineers and architects where the common goal was machine learning involving: shape grammars, LISP language implementation and JAVA 7 migration, complex algorithmic calculations, etc.</p>
+																		<hr style="margin-left: 5em; margin-right: 5em;">
+																		<h4>Languages used on official projects and work:</h4>
+																		<ul>
+																			<li>JAVA 7/8 native libraries</li>
+																			<li>Android 2.3+</li>
+																			<li>PHP</li>
+																			<li>HTML/CSS/JavaScript</li>
+																			<li>Common LISP/Prolog</li>
+																			<li>MySQL, Sybase SQL and MSSQL</li>
+																			<li>LISP and Prolog</li>
+																		</ul>
+																		
+																	</div>
+																	<div class="col">
+																	
+																	</div>
+																</div>
+															</p>
+															
+														</div>
 													</div>
 												</div>
 											</div>
 											<!-- PROJECTS -->
 											<div class="row">
-												 <div class="col-md-4" >
+												 <div class="col-md-5" >
 													<hr>
 													<h3>Projects and Research</h3>
 													<hr>
-														<div id="projects-choice" class="portfolio-item" style="text-align:left;">
+														<div id="projects-choice" class="sdev" style="text-align:left;">
+															<div id="sdev">
 															<h4>Artificial Intelligence</h4>
-															<input id="project0" class="project-choice-radio" type="radio" name="projects" value="Mobile Network Monitoring System">
-															<label class="project-choice-label" for="project0" style="width: 90%;">LISP/PROLOG language integration<img src="img/portfolio/components/project.png"/></label>
-															<br>
-															<input id="project2" class="project-choice-radio" type="radio" name="projects" value="GIS PORTAL">
-															<label class="project-choice-label" for="project2" style="width: 90%;">Shape Grammars in LISP<img src="img/portfolio/components/project.png"/></label>
-															<br>
-															<input id="project3" class="project-choice-radio" type="radio" name="projects" value="Real-time dashboard system">
-															<label class="project-choice-label" for="project3" style="width: 90%;">Java 7 migration of LISP AI engine<img src="img/portfolio/components/project.png"/></label>
+															<input id="project-sdev-0" class="project-choice-radio" type="radio" name="projects" value="Shape Grammars in LISP - JAVA">
+															<label  class="project-choice-label project-sdev-input" for="project-sdev-0" style="width: 90%;">Shape Grammars in LISP - JAVA<img src="img/portfolio/components/project-sdev.png"/></label>
 															<br>
 															<hr>
 															<h4>Web Development</h4>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">Mobile Network Monitoring System<img src="img/portfolio/components/project.png"/></label>
+															<input id="project-sdev-1" class="project-choice-radio" type="radio" name="projects" value="Real-time dashboard system">
+															<label class="project-choice-label project-sdev-input" for="project-sdev-1" style="width: 90%;">Mobile Network Monitoring System<img src="img/portfolio/components/project-sdev.png"/></label>
+															<br>
+															<h4>Android development</h4>
+															<input id="project-sdev-2" class="project-choice-radio" type="radio" name="projects" value="Android Beam Detector">
+															<label class="project-choice-label project-sdev-input" for="project-sdev-2" style="width: 90%;">CERN's beam detector statistics engine<img src="img/portfolio/components/project-sdev.png"/></label>
 															<br>
 															<hr>
-															<h4>General Applications</h4>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">TETRA Monitoring System			<img src="img/portfolio/components/project.png"/></label>
+															<h4>Hobbies</h4>
+															<input id="project-sdev-3" class="project-choice-radio" type="radio" name="projects" value="SDR and DVB-T - TETRA Monitoring">
+															<label class="project-choice-label project-sdev-input" for="project-sdev-3" style="width: 90%;">SDR and DVB-T - TETRA Monitoring<img src="img/portfolio/components/project-sdev.png"/></label>
+															<br>
+															<input id="project-sdev-4" class="project-choice-radio" type="radio" name="projects" value="JAVA and PowerShell Installation Tools">
+															<label class="project-choice-label project-sdev-input" for="project-sdev-4" style="width: 90%;">JAVA and PowerShell Installation Tools<img src="img/portfolio/components/project-sdev.png"/></label>
+															<br>
+															<input id="project-sdev-5" class="project-choice-radio" type="radio" name="projects" value="JAVA 8 - SMS Gateway (AT COMMANDS)">
+															<label  class="project-choice-label project-sdev-input" for="project-sdev-5" style="width: 90%;">JAVA 8 - SMS Gateway (AT COMMANDS)<img src="img/portfolio/components/project-sdev.png"/></label>
 															<br>
 															<hr>
 															<h4>3D Engine Developer and Programmer</h4>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">JAVA Native Library &amp; LWJGL <img src="img/portfolio/components/project.png"/></label>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">C++ CryEngine&reg;<img src="img/portfolio/components/project.png"/></label>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">C++ Unreal Development Kit&reg;<img src="img/portfolio/components/project.png"/></label>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">Unity 3D&reg;<img src="img/portfolio/components/project.png"/></label>
+															<input id="project-sdev-6" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
+															<label  class="project-choice-label project-sdev-input" for="project-sdev-6" style="width: 90%;">JAVA Native Library &amp; LWJGL<img src="img/portfolio/components/project-sdev.png"/></label>
+															<input id="project-sdev-7" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
+															<label class="project-choice-label project-sdev-input" for="project-sdev-6" style="width: 90%;">C++ CryEngine&reg;<img src="img/portfolio/components/project-sdev.png"/></label>
+															<input id="project-sdev-8" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
+															<label  class="project-choice-label project-sdev-input" for="project-sdev-8" style="width: 90%;">C++ Unreal Development Kit&reg;<img src="img/portfolio/components/project-sdev.png"/></label>
+															<input id="project-sdev-9" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
+															<label  class="project-choice-label project-sdev-input" for="project-sdev-9" style="width: 90%;">Unity 3D&reg;<img src="img/portfolio/components/project-sdev.png"/></label>
 															<br>
 															<hr>
 															<h4>Human-Resources Tools</h4>
-															<input id="project1" class="project-choice-radio" type="radio" name="projects" value="TETRA Monitoring System">
-															<label class="project-choice-label" for="project1" style="width: 90%;">TETRA Monitoring System			<img src="img/portfolio/components/project.png"/></label>
+															<input id="project-sdev-10" class="project-choice-radio" type="radio" name="projects" value="Waiting Queue List">
+															<label id="project-sdev-input" class="project-choice-label" for="project-sdev-10" style="width: 90%;">Waiting Queue List<img src="img/portfolio/components/project-sdev.png"/></label>
 															<br>
 															<hr>
-															
+															</div>
 														</div>
 												</div>
 												<!-- PROJECT DETAILS -->
-												 <div class="col-md-8" style="margin-bottom: 5em;">
+												 <div class="col-md-7" style="margin-bottom: 5em;">
 													<hr>
 													<h3>Details</h3>
 													<hr>
 													<div id="project-details-container" class="portfolio-item" style="text-align: justify;">
-														<span id="project-details-txt" style="position: relative;">
+														<span id="project-details-txt" class="project-details-txt" style="position: relative;">
 																			
 														</span>
 														</p>
@@ -690,15 +701,15 @@
 						</div>	
 
     <!-- Call to Action -->
-    <section class="call-to-action bg-primary" id="blog">
+    <section class="call-to-action bg-primary" id="contact" style="margin-bottom: 16em;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-				<h2>Blog</h2>
+				<!--<h2>Contact</h2>
                     <hr class="small">
                     <a href="#" class="btn btn-lg btn-light">Click Me!</a>
                     <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

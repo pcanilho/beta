@@ -1,8 +1,11 @@
-<img src="img/portfolio/components/sql.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle;" ></img>
-									<img id="arrow-right-dashboard-1" src="img/portfolio/components/arrow-right.png" width="40px" height="40px" style=" padding: 10px; display: invisible; float: middle; "></img>
-									<img src="img/portfolio/components/dashboard.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle; " ></img>
-									<img id="arrow-right-dashboard-2" src="img/portfolio/components/arrow-right.png" width="40px" height="40px" style=" padding: 10px; display: invisible; float: middle; opacity: 0;"></img>
-									<img src="img/portfolio/data/momo.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle;"></img>
+									<div id="solution-img-container" style="text-align: center;">
+										<img src="img/portfolio/components/sql.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle;" ></img>
+										<img id="arrow-right-dashboard-1" src="img/portfolio/components/arrow-right.png" width="40px" height="40px" style=" padding: 10px; display: invisible; float: middle; "></img>
+										<img src="img/portfolio/components/dashboard.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle; " ></img>
+										<img id="arrow-right-dashboard-2" src="img/portfolio/components/arrow-right.png" width="40px" height="40px" style=" padding: 10px; display: invisible; float: middle; opacity: 0;"></img>
+										<img src="img/portfolio/data/momo.png" width="80px" height="80px" style="padding: 10px; display: inline-block; float: middle;"></img>
+									</div>
+									
 									<h4 style="text-align: center;">MOMO - Real-time Statistics Dashboard</h4></p>
 									<div style="text-align:center"><a  href="http://www.cern.ch/momo">www.cern.ch/momo</a></div>
 									<div style="text-align: justify;">
